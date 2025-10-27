@@ -1,0 +1,31 @@
+# -----------------------------------------------------------
+# CONFIGURATION FOR Mg PROTEOMICS ANALYSIS
+# -----------------------------------------------------------
+# NOTE: All file paths should be relative to your main project directory.
+
+# 1. DIRECTORIES AND FILES
+# Directory where all results (plots, tables) will be saved
+out_dir: "/Users/sysoevm/Library/CloudStorage/Dropbox/Pascal Lab/Desulfuromonas/Mg Chapter/Stat analysis"
+
+# Path to your raw proteomics intensity matrix (CSV file)
+raw_file: '/Users/sysoevm/Library/CloudStorage/Dropbox/Pascal Lab/Desulfuromonas/Mg Chapter/DIA-NN/NORMICS_results/RES_data_normalizedMEDIAN-log2.xlsx'
+
+# Path to your Gene Ontology (GO) annotation file (TSV file)
+go_file: "/Users/sysoevm/Library/CloudStorage/Dropbox/Pascal Lab/Desulfuromonas/Mg Chapter/DIA-NN/deepgoplus.tsv"
+
+
+# 2. STATISTICAL THRESHOLDS
+# Significance threshold for the adjusted p-value (q-value)
+sig_adjP: 0.05
+
+# Significance threshold for the absolute log2 fold-change
+sig_logFC: 1.0
+replicate_groups:
+  Low: [1, 2, 3]
+  NormLow: [4, 5, 6]
+  Control: [7, 8, 9]  
+
+id_extraction_regex: "^\\w+\\|([^|]+)\\|$"  # optional
+min_sig_proteins_heatmap: 2
+max_heatmap_proteins: 200
+use_t_for_gsea_ranking: false
