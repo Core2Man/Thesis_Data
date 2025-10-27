@@ -1,0 +1,17 @@
+# ------------------ Configuration File ------------------
+
+# 1. Path to the NON-imputed data file from Normics
+raw_file: "/Users/sysoevm/Library/CloudStorage/Dropbox/Pascal Lab/Desulfuromonas/Bicarbonate Chapter/Stats DIA-NN/Median_for_ANOVA.xlsx"
+mptp_raw_file: "/Users/sysoevm/Library/CloudStorage/Dropbox/Pascal Lab/Desulfuromonas/Bicarbonate Chapter/DIANN_midpoint/NORMICS_results/MP_RES_data_normalizedMEDIAN-log2.xlsx"
+# 2. Path to your Gene Ontology (GO) annotation file 
+go_file: "/Users/sysoevm/Library/CloudStorage/Dropbox/Pascal Lab/Desulfuromonas/Mg Chapter/DIA-NN/deepgoplus.tsv"
+
+# 3. Directory where all results (plots, tables) will be saved
+out_dir: "/Users/sysoevm/Library/CloudStorage/Dropbox/Pascal Lab/Desulfuromonas/Bicarbonate Chapter/Stats DIA-NN/FinalTP/"
+
+# 4. Significance thresholds
+sig_adjP: 0.05
+sig_logFC: 0.58
+
+# 5. Minimum score for a GO term to be considered valid
+go_min_score: 0.5
