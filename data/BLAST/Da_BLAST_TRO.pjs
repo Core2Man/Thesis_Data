@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Da_BLAST_TRO",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "data/Da_TRO.fasta",
+  "number-of-letters": 1094592,
+  "number-of-sequences": 3351,
+  "last-updated": "2025-05-19T14:03:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1786408,
+  "bytes-to-cache": 1124856,
+  "files": [
+    "Da_BLAST_TRO.pdb",
+    "Da_BLAST_TRO.phr",
+    "Da_BLAST_TRO.pin",
+    "Da_BLAST_TRO.pot",
+    "Da_BLAST_TRO.psq",
+    "Da_BLAST_TRO.ptf",
+    "Da_BLAST_TRO.pto"
+  ]
+}

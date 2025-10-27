@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Da_BLAST_UniProt",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "data/Da_uniprot.fasta",
+  "number-of-letters": 1093803,
+  "number-of-sequences": 3347,
+  "last-updated": "2025-05-19T14:03:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1961038,
+  "bytes-to-cache": 1124039,
+  "files": [
+    "Da_BLAST_UniProt.pdb",
+    "Da_BLAST_UniProt.phr",
+    "Da_BLAST_UniProt.pin",
+    "Da_BLAST_UniProt.pot",
+    "Da_BLAST_UniProt.psq",
+    "Da_BLAST_UniProt.ptf",
+    "Da_BLAST_UniProt.pto"
+  ]
+}

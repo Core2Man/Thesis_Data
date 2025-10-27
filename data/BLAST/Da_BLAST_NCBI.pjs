@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Da_BLAST_NCBI",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "data/Da_RefSeq.fasta",
+  "number-of-letters": 1099283,
+  "number-of-sequences": 3375,
+  "last-updated": "2025-05-19T14:02:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1806207,
+  "bytes-to-cache": 1129771,
+  "files": [
+    "Da_BLAST_NCBI.pdb",
+    "Da_BLAST_NCBI.phr",
+    "Da_BLAST_NCBI.pin",
+    "Da_BLAST_NCBI.pot",
+    "Da_BLAST_NCBI.psq",
+    "Da_BLAST_NCBI.ptf",
+    "Da_BLAST_NCBI.pto"
+  ]
+}
